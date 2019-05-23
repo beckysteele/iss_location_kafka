@@ -1,7 +1,6 @@
 from kafka import KafkaConsumer
 from pymongo import MongoClient
 import json
-import ast
 
 consumer = KafkaConsumer(
 	'iss_location',
